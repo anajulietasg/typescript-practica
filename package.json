@@ -1,0 +1,25 @@
+{
+  "name": "registro-alumnos-typescript",
+  "version": "1.0.0",
+  "description": "Repo para mis ejercicios de TypeScript",
+  "homepage": "https://github.com/anajulietasg/typescript-practica#readme",
+  "bugs": {
+    "url": "https://github.com/anajulietasg/typescript-practica/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anajulietasg/typescript-practica.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "hola.js",
+  "scripts": {
+  "test": "vitest run"
+},
+
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
