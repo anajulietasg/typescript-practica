@@ -3,7 +3,7 @@ import { Alumno } from "../src/Alumno";
 
 describe("Alumno", () => {
   test("un alumno de 18 años debe ser mayor de edad", () => {
-    const alumno = new Alumno("Leon", 18);
+    const alumno = new Alumno("Juan", 18);
     expect(alumno.esMayorDeEdad()).toBe(true);
   });
 
@@ -16,8 +16,8 @@ describe("Alumno", () => {
     const alumno = new Alumno("Franco", 17);
     expect(alumno.esMayorDeEdad()).toBe(false);
   });
-  
-    test("un alumno de 20 años tiene estado Mayor de edad", () => {
+
+  test("un alumno de 20 años tiene estado Mayor de edad", () => {
     const alumno = new Alumno("Lucia", 20);
     expect(alumno.obtenerEstado()).toBe("Mayor de edad");
   });
